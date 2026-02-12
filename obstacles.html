@@ -1,0 +1,123 @@
+<!-- filepath: c:\UNI WORK\CM_project\Motivations.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * { margin: 0; padding: 10; box-sizing: border-box; }
+
+        body { font-family: Arial, sans-serif; background-color: #e6f2ff; }
+
+        header { background-color: #0066cc; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+        header h1 { font-size: 28px; }
+
+        nav { display: flex; gap: 30px; }
+        nav a { color: white; text-decoration: none; font-size: 16px; cursor: pointer; }
+        nav a:hover { text-decoration: underline; }
+
+        .page-title { background-color: transparent; padding: 20px 40px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+        .page-title h2 { color: #333; font-size: 24px; }
+
+        /* Boxes layout: vertical stack that appears to continue off the left edge */
+        .boxes { display: flex; gap: 24px; flex-direction: column; margin-top: 20px; width: 60vw; margin-left: -10vw; overflow: visible; }
+
+        /* Individual box styling: white background, black outline, rounded corners */
+        .box { background: #ffffff; border: 1px solid #000; padding: 0; border-radius: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); width: 90vw; box-sizing: border-box; }
+        /* Inner content container: keep text within the visible portion of the box */
+        .box-inner {
+            position: relative;
+            left: 18vw; /* keep the text starting where you prefer */
+            padding: 18px;
+            box-sizing: border-box;
+            max-width: calc(100% - 18vw - 36px); /* prevent lines reaching the right box edge */
+            overflow-wrap: break-word;
+            word-break: break-word;
+        }
+        .box-inner { position: relative; left: 18vw; padding: 18px; box-sizing: border-box; }
+
+        .box p { color: #555; line-height: 1.4; }
+    </style>
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Climate Clear</h1>
+        <nav>
+              <a href="ClimateClear.html">About Us</a>
+            <a href="Motivations.html">Motivations</a>
+            <a href="Label.html">Our Label</a>
+            <a href="Thedata.html">The Data</a>
+            <a href="Shoppingoptimiser.html">Shopping Optimiser</a>
+            <a href="obstacles.html">obstacles</a>
+            <a href="referances.html">referances</a>
+            </header>
+                <div class="page-title">
+                    <h2>The Data</h2>
+                <div class="content">
+                    <div class="boxes">
+        <div class="boxes">
+
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-inner">
+                    <h3>Difficulties with gathering Data</h3>
+                    <p>Some difficulties may be associated with the gathering of accurate data for the labels. Some of the major barriers are as follow:
+
+Difficulty of measuring the pollutants being produced and where they are ending up.
+Gathering data from companies earlier in the supply chain that may be in different countries may be difficult to verify. 
+Gathering the data may apply extra costs to companies and be expensive to accurately verify.
+
+1. Although general mass balance calculations can be made regarding the production of pollutants, these may not be completely accurate as some changes during production may occur. Also it may be wrong to assume that all pollutants would have the same negative effect if they are in the same quantities, the location of where it is released may affect the severity of the pollutant.
+
+2. Countries have different regulations related to the way waste is monitored. In addition countries in weaker economies may find it difficult to find capital sufficient to meet the standards we have set out.
+
+3. Some of the costs required for accurate monitoring can include: installation of monitoring equipment, laboratory studies, environmental consultancy and third-party verification. These costs could stack up and make it unfeasible for the company to sell its products in the UK at its current prices. Depending on the market this could lead to prices increasing for consumers or the company pulling out of the market. This is even more impactful on upstream companies in weaker economies as the capital required and access to verifiers is more difficult to get a hold of. This could lead them to stop supplying to the upstream companies.
+</p>
+                </div>
+            </div>
+
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-inner">
+                    <h3>Possible market affects of the labels introduction</h3>
+                    <p>Due to the increase in supply costs for the whole supply chain, costs for all levels may increase massively. This may have drastic consequences due to the products being produced largely being necessities. As the demand for necessities has very little space to decrease, this may lead to much higher prices and/or supply shortages and be very inflationary for the UK economy. 
+
+Another possible effect of the increased costs is potentially having downstream companies pulling out of supplying the upstream ones. This could lead to the upstream companies having to go to more expensive or less environmentally friendly suppliers.
+
+In the case where price rises are not too significant, problems may still arise. With the establishment of the ratings. More environmental products may begin to increase prices compared to the competing products and vice versa. This change in prices may lead to some of the customers who do not get as much utility from being environmentally friendly to choose the worse but now cheaper option. In addition those who do want to be environmentally friendly may be priced out of the more environmentally friendly option.
+</p>
+                </div>
+            </div>
+
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-inner">
+                    <h3>Ways to solve these problems</h3>
+                    <p>Some potential solutions to these problems may include:
+
+Giving a rating to the quality of data
+
+Pros: allows for companies to have leeway with the accuracy of data, decreasing possible cost pressures.
+
+Cons: can manipulate data sets, possibly making other companies appear worse in comparison depending if the estimated data is less than the true value. Another con is possibly making the label more difficult to understand leading to less attention being paid to it.
+
+Including an uncertainty range for the value
+
+Pros: Allows less accurate measurement without having as much of an affect on the data set
+
+Cons: may cause clutter on the label
+
+Having different standards of verification based on the location of the company in the supply chain.
+
+Pros: maintains accurate data where possible but gives leeway to companies with a larger financial barrier.
+
+Cons: Risk of companies changing to suppliers with weaker regulation on monitoring and verification.
+</p>
+                </div>
+            </div>
+    
+    <footer class="footer">
+        <p>Contact</p>
+        <p>Address: Exhibition Road, South Kensington, London SW7 2AZ</p>
+    </footer>
+</body>
+</html>

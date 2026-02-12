@@ -1,0 +1,103 @@
+<!-- filepath: c:\UNI WORK\CM_project\Motivations.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * { margin: 0; padding: 10; box-sizing: border-box; }
+
+        body { font-family: Arial, sans-serif; background-color: #e6f2ff; }
+
+        header { background-color: #0066cc; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+        header h1 { font-size: 28px; }
+
+        nav { display: flex; gap: 30px; }
+        nav a { color: white; text-decoration: none; font-size: 16px; cursor: pointer; }
+        nav a:hover { text-decoration: underline; }
+
+        .page-title { background-color: transparent; padding: 20px 40px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+        .page-title h2 { color: #333; font-size: 24px; }
+
+        /* Boxes layout: vertical stack that appears to continue off the left edge */
+        .boxes { display: flex; gap: 24px; flex-direction: column; margin-top: 20px; width: 60vw; margin-left: -10vw; overflow: visible; }
+
+        /* Individual box styling: white background, black outline, rounded corners */
+        .box { background: #ffffff; border: 1px solid #000; padding: 0; border-radius: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); width: 90vw; box-sizing: border-box; }
+        /* Inner content container: keep text within the visible portion of the box */
+        .box-inner {
+            position: relative;
+            left: 18vw; /* keep the text starting where you prefer */
+            padding: 18px;
+            box-sizing: border-box;
+            max-width: calc(100% - 18vw - 36px); /* prevent lines reaching the right box edge */
+            overflow-wrap: break-word;
+            word-break: break-word;
+        }
+        .box-inner { position: relative; left: 18vw; padding: 18px; box-sizing: border-box; }
+
+        .box p { color: #555; line-height: 1.4; }
+        /* Ensure images fit inside their box */
+        .box-inner img { max-width: 100%; height: auto; display: block; margin: 10px 0; }
+    </style>
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Climate Clear</h1>
+        <nav>
+              <a href="ClimateClear.html">About Us</a>
+            <a href="Motivations.html">Motivations</a>
+            <a href="Label.html">Our Label</a>
+            <a href="Thedata.html">The Data</a>
+            <a href="Shoppingoptimiser.html">Shopping Optimiser</a>
+            <a href="obstacles.html">obstacles</a>
+            <a href="referances.html">referances</a>
+            </header>
+                <div class="page-title">
+                    <h2>The Data</h2>
+                <div class="content">
+                    <div class="boxes">
+        <div class="boxes">
+
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-inner">
+                    <h3>How we utilise the data</h3>
+                    <p>Although some of the markets are highly competitive, it is unlikely that any groups would have more than 30 or so different products and therefore it may be difficult to approximate the groups using common distributions. Therefore we have decided to use the following method to give accurate and easy to read comparisons:
+
+First we find the amount of the selected pollutant produced in the stages of the lifecycle before the purchase of the product. This value is then normalised to a per unit amount, an example of this may be per washing tablet or per serving of toothpaste. Next we rank each product from lowest to highest. The selection of the colour associated with their ranking is as follows;
+
+[Diagram of thing]
+
+This method was used over just using quartiles as it allows for emphasis on extremes, as if there was one option that was significantly better or worse than the rest, there would be less in the green or red category leading them to stand out more.
+</p>
+                </div>
+            </div>
+
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-inner">
+                    <h3>Example: Laundery Detergents</h3>
+                    <p>Below we cover an example of the group consisting of dishwasher tablets, liquids and powders. In this example we look at the CO2 emmissions of 9 of the options someone may encounter in the supermarket</p>
+                    <img src="barchart.png" alt="The CO2 emissions of different brands and types">
+                    <img src="Coloring.png" alt="The colors that would be associated with each of the options"> 
+                    <p>As we can see above, The best ooption in this case would be the Tesco liquid pods</p>
+                </div>
+            </div>
+
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="box-inner">
+                    <h3>How data would be gathered</h3>
+                    <p>For the pollutants: As the seller of the product, the final company in the chain would be responsible for making sure that data regarding the pollutants produced by other companies that may have contributed to the final product. The value used on the product must be the average for the specific product over the previous year.
+
+The analysis for the ‘Overall Company Impact’ would include any environmental projects the company is associated with, including the purchasing of Voluntary Carbon Credits. These other projects would be analyzed by a third party verify to ensure that the projects are acted upon as state and effective at what they set out to do. 
+</p>
+                </div>
+            </div>
+    
+    <footer class="footer">
+        <p>Contact</p>
+        <p>Address: Exhibition Road, South Kensington, London SW7 2AZ</p>
+    </footer>
+</body>
+</html>
